@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تهاني الفرحة</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Changa:wght@200..800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🎉 مناسبة سعيدة 🎉</h1>
+        <p>اكتب اسم اللي بتحبه ورسالتك ليه والمناسبة وابعتها ليه</p>
+        
+        <input type="text" id="Input" placeholder="هنا هتكتب المناسبة">
+        <input type="text" id="nameInput" placeholder="اكتب اسم الكريم">
+        <textarea id="messageInput" placeholder="اكتب تهنئتك هنا..."></textarea>
+        
+        <button onclick="generateCard()">إنشاء البطاقة</button>
+        
+        <div id="card" class="card hidden">
+            <h1 id="title"></h1>
+            <h2 id="cardName"></h2>
+            <p id="cardMessage"></p>
+        </div>
+        <br>
+        <button id="BTNdownload" class="hidden" onclick="downloadCard()">تحميل التهنئة</button>
+        <br>
+
+        <h3>لو عايز تغير اللون غيره من هنا</h3>
+        <br>
+            <h4>لون الخلفية</h4>
+            <input onchange="changeCardColor()" type="color" id="colorPicker">
+            <h4>لون الخط</h4>
+            <input onchange="changeFontColorA()" type="color" id="colorPickerA">
+            <br>
+            <p id="advice">win + > عن طريق الضغط على emoji تقدر تحط</p>
+        </div>
+        
+    </div>
+
+    
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
