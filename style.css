@@ -21,6 +21,10 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+.container h1{
+    font-size: 30px;
+}
+
 input, textarea {
     width: 100%;
     max-width: 95%;
@@ -30,8 +34,6 @@ input, textarea {
     border: 1px solid #ccc;
     border-radius: 5px;
 }
-
-
 
 button {
     background: #28a745;
@@ -55,8 +57,6 @@ button:hover {
 .hidden {
     display: none;
 }
-
-
 
 .inputs input{
     display: inline;
