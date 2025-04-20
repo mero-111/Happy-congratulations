@@ -22,7 +22,7 @@ function downloadCard() {
     html2canvas(card).then(canvas => {
         let link = document.createElement("a");
         link.href = canvas.toDataURL("image/png");
-        link.download = "تهنئة عيد الفطر.png";
+        link.download = "تهاني الفرحة.png";
         link.click();
     });
 }
