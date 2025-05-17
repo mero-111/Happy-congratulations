@@ -29,8 +29,8 @@ function downloadCard() {
 
     html2canvas(card).then(canvas => {
         let link = document.createElement("a");
-        link.href = canvas.toDataURL("image/png");
-        link.download = "🎉مناسبة سعيدة🎉.png";
+        link.href = canvas.toDataURL("image/jpg");
+        link.download = "Vibecard.jpg";
         link.click();
     });
 }
