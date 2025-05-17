@@ -1,17 +1,14 @@
-
 *{
     font-family: "Changa", sans-serif;
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
   }
-
 body {
     font-family: Arial, sans-serif;
     text-align: center;
     background-color: #f7f7f7;
 }
-
 .container {
     max-width: 400px;
     margin: 50px auto;
@@ -20,11 +17,9 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-
 .container h1{
     font-size: 30px;
 }
-
 input, textarea {
     width: 100%;
     max-width: 95%;
@@ -34,9 +29,6 @@ input, textarea {
     border: 1px solid #ccc;
     border-radius: 5px;
 }
-
-
-
 button {
     background: #28a745;
     color: white;
@@ -46,11 +38,9 @@ button {
     border-radius: 5px;
     width: 100px;
 }
-
 button:hover {
     background: #218838;
 }
-
 .card {
     background: #ffeb3b;
     padding: 20px;
@@ -61,26 +51,19 @@ button:hover {
     top: 10px;
     bottom: 10px;
 }
-
 .hidden {
     display: none;
 }
-
-
-
 .inputs input{
     display: inline;
     width: 60px;
     height: 35px;
 }
-
 #advice{
     margin: 10px;
     font-size: 10px;
     color: #414141;
 }
-
-
 .custom-file-upload{
     display: inline-block;
     cursor: pointer;
@@ -95,22 +78,16 @@ button:hover {
     text-align: center;
     padding: 10px;
 }
-
 .custom-file-upload:hover {
     background-color: #218838;
 }
-
 #imageUpload{
     display: none;
 }
-
 #BTNdownload{
     width: 100%;
 }
-
 .up_img{
     display: flex;
     justify-content: space-around;
-
 }
-
