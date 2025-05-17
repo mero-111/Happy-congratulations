@@ -27,9 +27,6 @@
             <h2 id="cardName"></h2>
             <p id="cardMessage"></p>
         </div>
-        <br>
-        <button id="BTNdownload" class="hidden" onclick="downloadCard()">تحميل التهنئة</button>
-        <br>
 
         <h3>لو عايز تغير اللون غيره من هنا</h3>
         <br>
@@ -38,6 +35,18 @@
             <h4>لون الخط</h4>
             <input onchange="changeFontColorA()" type="color" id="colorPickerA">
             <br>
+            <h4>لو عايز تخلي الخلفية صورة</h4>
+            <div class="up_img">
+
+                <label for="imageUpload" class="custom-file-upload">اختر صورة</label>
+                <input type="file" id="imageUpload" accept="image/*">
+                <button onclick="RemovePhoto()" class="remove">امسح الصورة</button>
+            </div>
+            <input type="range" id="bgSizeRange">
+            <span id="sizeValue">50%</span>
+            <br>
+            <br>
+        <button id="BTNdownload" class="hidden" onclick="downloadCard()">تحميل التهنئة</button>
             <p id="advice">win + > عن طريق الضغط على emoji تقدر تحط</p>
         </div>
         
