@@ -35,6 +35,8 @@ input, textarea {
     border-radius: 5px;
 }
 
+
+
 button {
     background: #28a745;
     color: white;
@@ -42,6 +44,7 @@ button {
     padding: 10px;
     cursor: pointer;
     border-radius: 5px;
+    width: 100px;
 }
 
 button:hover {
@@ -52,11 +55,18 @@ button:hover {
     background: #ffeb3b;
     padding: 20px;
     margin-top: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: sticky;
+    top: 10px;
+    bottom: 10px;
 }
 
 .hidden {
     display: none;
 }
+
+
 
 .inputs input{
     display: inline;
@@ -69,3 +79,38 @@ button:hover {
     font-size: 10px;
     color: #414141;
 }
+
+
+.custom-file-upload{
+    display: inline-block;
+    cursor: pointer;
+    background-color: #28a745;
+    color: white;
+    border-radius: 6px;
+    font-size: 14px;
+    width: 150px;
+    text-align: center;
+    display: flex;
+    align-self: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.custom-file-upload:hover {
+    background-color: #218838;
+}
+
+#imageUpload{
+    display: none;
+}
+
+#BTNdownload{
+    width: 100%;
+}
+
+.up_img{
+    display: flex;
+    justify-content: space-around;
+
+}
+
