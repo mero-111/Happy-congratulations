@@ -50,6 +50,9 @@ button:hover {
     position: sticky;
     top: 10px;
     bottom: 10px;
+    overflow: hidden;
+    max-height: 230px;
+    word-break: keep-all;
 }
 .hidden {
     display: none;
@@ -91,3 +94,4 @@ button:hover {
     display: flex;
     justify-content: space-around;
 }
+
