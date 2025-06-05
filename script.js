@@ -4,9 +4,6 @@ const resetBtn = document.getElementById('remove');
 const bgSizeRange = document.getElementById('bgSizeRange');
 const sizeValue = document.getElementById('sizeValue');
 
-if (navigator.userAgent.includes("Instagram")) {
-    alert("عفوا لكن هذا المتصفح لا يدعم موقعنا لذلك قم بفتحه في متصفح اخر");
-}
 
 
 function generateCard() {
